@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body, html{
+    overflow-x: hidden;
+    font-family: Montserrat;
+}
+      /* Barre de Navigation  */
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+}
+.main{
+    background-color: black;
+}
+
+.main > ul > li{
+    width: 16.66%;
+  
+}
+.main > ul > li > a{
+    color: #ffffff;
+    float: left;
+    font-family: Montserrat;
+    font-size: 25px;
+    letter-spacing: 0;
+    padding: 32px 29px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+li a{
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#menu-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.logo{
+    background: #ffffff none repeat scroll 0 0;
+    float: left;
+    padding: 10px 30px 24px;
+    width: 250px;
+}
+.logo a{
+    color: #222222;
+    float: left;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align: center;
+}
+/* #word{
+    text-align: center;
+} */
+.logo > a > strong > p{
+    font-weight: bold;
+    }
+.logo span{
+    color: #ca2525;
+}
+
+a:hover{
+    transform: scale(0.9);
+}
+
+
+
+        /* One Page */
+.home{
+    display : flex;
+    align-items : center;
+    height: 990px;
+    width: 100%;
+    margin: 0;
+    z-index: -2;
+}
+.personal{
+    color: #ffffff;
+    position: relative;
+    left: 160px;
+    font-family: Montserrat;
+    line-height: -10%;
+}
+.personal > #sous-titre{
+    color: #bcbcbc;
+    font-size: 50px;
+
+}
+.personal > h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.sous-titre{
+    float: left;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    width: 100%;
+    color: darkred;
+}
+.res{
+    margin-top: 3%;
+    color: darkred;
+    font-size: 30px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.about > p{
+    margin: 20px 0;
+    text-align: justify;
+
+}
+.i{
+    margin-bottom: 20px;
+}
+.boutton{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    padding: 10px;
+    background-color: #ca2525;
+    border: none;
+    transition: 5s;
+}
+.button > a{
+    color: white;
+}
+.button:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+#info-personnal{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.i > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 200%;
+}
+.i > ul > li{
+    color: #949494;;
+}
+.gauche{
+    margin-right: 150px;
+}
+#titi{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center !important;
+}
+
+#titi > h2{
+    color: #f2f2f2;
+    font-family: Montserrat;
+    font-size: 118px;
+    font-weight: bold;
+    letter-spacing: -9px;
+    line-height: 89px;
+    margin: 0;
+}
+.sucr > span{
+    color: #b0b0b0;
+    float: left;
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.sucr > h3{
+    color: #161616;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 29px 0 0;
+}
+/* Portfolio */
+.logos{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    background: rgba(255, 255, 255, 0.121);
+    color: black;
+    border: 1px solid black;
+    padding: 16px 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 2% auto;
+}
+.liev{
+    justify-content: center;
+}
+
+/* .logos:hover img{
+    opacity: 0.5;
+} */
+
+
+/* Home2 */
+#home2{
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin: 3% 0;
+}
+#home2 > p{
+    font-family: Roboto;
+    color: #666666;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 40%;
+    text-align-last: left;
+    margin-left: 6%;
+    margin-bottom: 30px;
+}
+#home2 > span{
+    color: darkred;
+    margin-left: 100px;
+}
+#home2 > h1{
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.skills{
+    width: 28%;
+    margin: auto;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15px 1fr;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .skills .box h2{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+ 
+  }
+  .skills .box .pourcentage{
+    position: relative;
+    right: -50%;
+    width: 61%;
+    height: 22px;
+    background: rgb(34, 33, 33);
+  }
+  .skills .box .pourcentage div{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+  }
+#contact{
+    background-color: black;
+    color : white;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 18px;
+}
+.contact > h4{
+    margin: 2% 0;
+    color: darkred;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contact > h6{
+    margin: 2% 0 ;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 30%;
+    margin: 2% auto;
+    padding-left: 1%;
+    height: 20px;
+}
+#message{
+    width: 50%;
+    margin: 2% auto;
+    padding-left: 1%;
+}
+button{
+    margin: 1% auto;
+    padding: 10px;
+    background-color: #ca2525;
+    color: white;
+}
+.copy{
+    font-size: 13px;
+}
+.n{
+  font-size: 18px;
+}
